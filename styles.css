@@ -197,3 +197,53 @@ footer button:hover {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #0f172a;
+    color: #f5f7fa;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #1e293b;
+}
+
+body.dark-mode .content main section {
+    background-color: rgba(30, 41, 59, 0.9);
+    color: #f1f5f9;
+}
+
+body.dark-mode nav a {
+    color: #cbd5e1;
+}
+
+/* Welcome Section Header with Toggle Button */
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.welcome-header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Toggle Button Styling */
+#toggle-theme {
+    background-color: #38bdf8;
+    border: none;
+    color: #0f172a;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggle-theme:hover {
+    background-color: #0ea5e9;
+}
