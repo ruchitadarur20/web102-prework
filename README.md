@@ -23,3 +23,4 @@ To run locally:
 # From terminal
 cd web102-prework
 open index.html
+then right click on the html file and run on live run
